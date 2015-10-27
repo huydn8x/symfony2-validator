@@ -36,7 +36,7 @@ $validator = $this->get('common.validator');
 $formData = $validator->getFlashData(Validator::FORM_DATA);
 ```
 
-# See more pattern in $ruleConst variable
+# See more pattern in $_ruleConst variable
 
 ```php
 private $_ruleConst = array(
