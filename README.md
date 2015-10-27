@@ -3,12 +3,11 @@ Validate form data before processing
 
 # Example use library:
 
+```php
 // Include library or call from service
-
 use CommonBundle\Component\Validator;
 
 // Init validator
-
 $redirectRoute = 'product';
 $requestParams = array(
 	'name' => 'test name'
@@ -35,5 +34,6 @@ if ($validateResult['errors']) {
 
 $validator = $this->get('common.validator');
 $formData = $validator->getFlashData(Validator::FORM_DATA);
+```
 
 See more pattern in $ruleConst variable
