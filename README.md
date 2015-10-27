@@ -4,9 +4,11 @@ Validate form data before processing
 # Example use library:
 
 // Include library or call from service
+
 use CommonBundle\Component\Validator;
 
 // Init validator
+
 $redirectRoute = 'product';
 $requestParams = array(
 	'name' => 'test name'
